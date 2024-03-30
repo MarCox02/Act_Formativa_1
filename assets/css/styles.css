@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(56, 145, 71);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header{ 
+    background-color: white;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    height: 120px;
+    padding: 10PX 0;
+}
+nav{
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+
+    position: relative;
+}
+nav a{
+    color: rgb(0, 92, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav a:hover {
+    color: rgb(0, 202, 0);
+    transition: 350ms;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(0, 207, 0);
+    transition: 3;
+
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    transition: 300ms;
+}
+nav a:hover::before {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.card-container {
+  background-color: #e0ffe0;
+  padding: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card{
+    height: 300px;
+    display: flex;
+    flex-direction: col;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.centrar{
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.Ycentrar{
+    text-align: center;
+    max-height: 50%;
+    margin: 0 auto;
+}
+.mayuscula{
+    text-transform: uppercase;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: darkgreen;
+    height: 50px;
+    color: black;
+}
+.boton-cum{
+    background-color: rgb(0, 202, 0);
+    color: black;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
+
+.boton-cum:hover{
+    cursor: pointer;
+    background-color: green;
+    color: black;
+    transition: .2s ease-in-out;
+}
+
+.figure {
+    position: relative;
+    width: 360px;
+    max-width: 10%;
+}
+.figure image.piss.image-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}    
+
+.figure:hover image.piss.image-hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.imagen{
+    background-color: white;
+    padding: 3px 5px;
+}
+.imagen:hover{
+    cursor: pointer;
+    background-color: rgb(0, 202, 0);
+    padding: 3px 5px;
+    opacity: 0;
+    transition: 0.2s
+}
+
