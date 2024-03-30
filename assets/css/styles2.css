@@ -33,6 +33,9 @@
   .card:hover .alternate-image {
     opacity: 1;
   }
+  .ApL{
+    padding-left: 25px;
+  }
   .IdR{
     padding-left: 200px;
   }
@@ -52,6 +55,8 @@
   header {
     background-color: #fff;
     padding: 5px 0px;
+    font-family: 'Lucida Sans';
+    font-size: larger;
   }
   .centrar{
   text-align: center;
@@ -64,7 +69,6 @@
   }
   .logo {
     max-width: 200px;
-    margin-right: 60px;
   }
   .title {
     flex-grow: 1; /* Allow title to expand and occupy available space */
@@ -73,7 +77,14 @@
     margin: 0 auto;
     color: #007900;
   }
-
+  .Linker {
+    
+    text-decoration: none;
+  }
+  .Linker a{
+    color: rgb(0, 121, 46);
+    text-decoration: none;
+  }
   .Link-carta{
     font-size: 20px;
   }
@@ -98,7 +109,7 @@
     text-transform: uppercase;
     font-size: 20px;
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 70px;
     padding-top: auto;
     padding-bottom: 5px;
 
