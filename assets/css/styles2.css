@@ -1,3 +1,4 @@
+
 .card {
     /* Set a fixed height for the card */
     width: 500px;
@@ -11,7 +12,7 @@
     width: 100%;
     height: auto;
     object-fit: cover; /* Maintain aspect ratio while covering the entire area */
-    transition: opacity 0.6s ease; /* Smooth transition for opacity */
+    transition: opacity 0.6s ease;
   }
   .card:hover img {
     /* Reduce opacity of image on hover */
@@ -36,17 +37,14 @@
   .ApL{
     padding-left: 25px;
   }
-  .IdR{
-    padding-left: 200px;
+  .ApT{
+    padding-top: 25px;
   }
-  .IdS{
-    padding-top: 50px;
+  .ApB{
+    padding-bottom: 25px;
   }
-  .IdN{
-    padding-bottom: 50px;
-  }
-  .IdS2{
-    padding-top: 500px;
+  .ApR{
+    padding-right: 25px;
   }
   .card-container {
     background-color: #e0ffe0;
@@ -143,3 +141,6 @@
 
   position: relative;
 }
+.body {
+  background-color: #073a07;
+} 
