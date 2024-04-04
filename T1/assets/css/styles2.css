@@ -143,3 +143,9 @@
 
   position: relative;
 }
+.custom-button {
+  color: white !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  transition: none !important;
+}
